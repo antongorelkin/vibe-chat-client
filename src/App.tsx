@@ -31,8 +31,8 @@ export default function App() {
 	const [activeChatId, setActiveChatId] = useState<number | null>(null);
 	const [message, setMessage] = useState("");
 	const [chatHistory, setChatHistory] = useState<MessageData[]>([]);
-	const [usersList, setUsersList] = useState<UserInfo[]>([]);
-	const [activeChatPartner, setActiveChatPartner] = useState<string | null>(
+	const [_usersList, setUsersList] = useState<UserInfo[]>([]);
+	const [_activeChatPartner, setActiveChatPartner] = useState<string | null>(
 		null,
 	);
 
